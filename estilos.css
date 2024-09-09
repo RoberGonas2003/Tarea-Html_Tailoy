@@ -1,0 +1,145 @@
+head{
+    display: flex;
+    margin-top: 0px;
+    max-width: max-content;
+}
+
+main{
+    max-width: max-content;
+    margin: 0;
+    padding: 0;
+}
+
+main header{
+    display: flex;
+    margin-left: 150px;
+}
+
+header input{
+    width: 200px;
+    max-height: 30px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+main header img{
+    display: flex;
+    height: 50px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.arreglo{
+    display: flex;
+    padding-top: 10px;
+    border-top: 1px solid gray;
+}
+
+.arreglo li{
+    margin-left: 100px;
+    margin-right: 400px;
+    margin-bottom: 0px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+
+}
+
+.arreglo li:hover{
+    color: rgb(35, 187, 47);
+}
+
+.navista{
+    display: flex;
+    padding-top: 10px;
+    background-color: rgb(35, 187, 47);
+    margin-bottom: 0px;
+}
+
+.navista li{
+    margin-right: 130px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+}
+
+.imagencentro{
+    padding-left: 200px;
+}
+
+.promociones{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.promos{
+    background-color: white;
+    padding: 20px;
+    border: 10px;
+    text-align: center;
+}
+
+.promos h2{
+    font-size: large;
+    color:aquamarine;
+}
+
+.promos p{
+    font-size: large;
+    color: blue;
+}
+
+
+footer {
+    background-color: #0b223f;
+    padding: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    max-width: max-content;
+}
+
+.columnas {
+    flex: 1;
+    padding: 10px;
+}
+
+.columnas h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.columnas ul {
+    list-style: none;
+}
+
+.columnas ul li {
+    margin-bottom: 8px;
+}
+
+.columnas ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.columnas ul li a:hover {
+    text-decoration: underline;
+}
+
+.imagenabajo{
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
